@@ -10,13 +10,13 @@ Material:
   m_Name: PurpleMat
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 2100000, guid: 1fa9c633f968831489dba00f678f0236, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_ModifiedSerializedProperties: 16
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap:
     RenderType: Opaque
   disabledShaderPasses: []
@@ -26,7 +26,16 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
     - _Metallic: 1
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.55
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.5820973, g: 0.11792451, b: 1, a: 1}
     - _Color: {r: 0.58209723, g: 0.11792449, b: 1, a: 1}
