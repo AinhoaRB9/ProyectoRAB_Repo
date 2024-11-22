@@ -37,8 +37,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //Almacenar de manera constante el input de teclado en los ejes X e Y
-        horInput = Input.GetAxis("Horizontal");
-        verInput = Input.GetAxis("Vertical");
+        horInput = Input.GetAxis("Vertical");
+        verInput = Input.GetAxis("Horizontal");
         Jump();
         if (transform.position.y < fallLimit) { Respawn(); }
     }
