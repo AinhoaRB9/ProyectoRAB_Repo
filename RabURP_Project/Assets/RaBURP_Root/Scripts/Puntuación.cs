@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Puntuación : MonoBehaviour
 {
+
     public Text scoreText; // Referencia al componente Text donde se mostrarán los puntos
     private int score = 0; // Puntuación inicial
 
@@ -19,6 +20,7 @@ public class Puntuación : MonoBehaviour
     {
         scoreText.text = "Puntos: " + score;
     }
+
 
     // Start is called before the first frame update
     void Start()
