@@ -8,6 +8,7 @@ public class pruebaPlayer : MonoBehaviour
     private float horInput; //Referencia al input horizontal del teclado
     private float verInput; //Referencia al input vertical del teclado
 
+
     [Header("General References")]
     public Rigidbody playerRb; //Almacén del Rigidbody del player. Me permite moverlo
     public AudioSource playerAudio; //Referencia al reproductor de sonidos del player

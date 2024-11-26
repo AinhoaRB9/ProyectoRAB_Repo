@@ -58,14 +58,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("PickUp"))
-        {
-            playerAudio.PlayOneShot(soundLibrary[2]);
-        }
-    }
-
+   
     void VelocityMove()
     {
         //Movimiento basado en afectar al velocity: "Motor" que imita la capacidad de moverse de un ser vivo
@@ -95,6 +88,15 @@ public class PlayerController : MonoBehaviour
         //Cambia la posición del player por la posición del punto de respawn
         transform.position = respawnPoint.transform.position;
     }
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Trigger detectado con: " + other.gameObject.name);
 
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("¡El Player tocó el PickUp!");
+            Destroy(gameObject);
+        }
+    }
 
 }
