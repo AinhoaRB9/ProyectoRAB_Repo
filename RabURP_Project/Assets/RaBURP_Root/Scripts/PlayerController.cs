@@ -97,6 +97,17 @@ public class PlayerController : MonoBehaviour
             Debug.Log("¡El Player tocó el PickUp!");
             Destroy(gameObject);
         }
+        if (other.CompareTag("Enemy"))
+        {
+            Debug.Log("¡El Player tocó al enemigo! Respawneando...");
+            Respawn(); // Llama a la función Respawn
+        }
+
+
+
+
+
     }
+
 
 }
