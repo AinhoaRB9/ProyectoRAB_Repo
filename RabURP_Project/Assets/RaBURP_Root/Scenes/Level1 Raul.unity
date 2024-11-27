@@ -8512,7 +8512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0323045745823b143b41e164bb5b575e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  specificSceneToLoad: 4
+  specificSceneToLoad: 1
 --- !u!54 &2118623962
 Rigidbody:
   m_ObjectHideFlags: 0
