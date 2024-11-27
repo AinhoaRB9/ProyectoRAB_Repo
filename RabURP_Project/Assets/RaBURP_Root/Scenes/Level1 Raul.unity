@@ -1754,6 +1754,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9b88e09007c629d4592dc6fb21e0faec, type: 3}
   - {fileID: 8300000, guid: 6f36b1a6b2984be40a1726217435ebcf, type: 3}
   - {fileID: 8300000, guid: 692ef15895c36bf4eab3fe209a2a61fa, type: 3}
+  - {fileID: 8300000, guid: 61e64cdf6ebcf5f4c8dc3bb47c845abe, type: 3}
   respawnPoint: {fileID: 1521816287}
   fallLimit: 1
 --- !u!114 &445813787
