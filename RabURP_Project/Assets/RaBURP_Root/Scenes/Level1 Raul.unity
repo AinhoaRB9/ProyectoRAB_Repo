@@ -1762,7 +1762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   points: 0
   winPoints: 0
-  winGoal: {fileID: 0}
+  winGoal: {fileID: 855836961}
 --- !u!54 &445813788
 Rigidbody:
   m_ObjectHideFlags: 0
